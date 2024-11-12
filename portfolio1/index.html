@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Чепига Екатерина</title>
+    <link href="Calibri" rel="stylesheet">
+    <style>
+        body {
+            font-family: Calibri, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-image: url('Foto/hhh.jpg'); 
+            background-size: cover; 
+            background-position: absolute; 
+            background-repeat: no-repeat;
+            font-size: 18px; /* Увеличен базовый размер шрифта до 18px */
+        }
+        #wrapper {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px; /* Увеличенный размер шрифта для ссылок */
+        }
+        h2 {
+            color: #379ba6;
+            font-size: 40px; /* Увеличенный размер шрифта заголовка до 24px */
+        }
+        #main-content p {
+            font-size: 25px; /* Увеличенный размер шрифта для текста в секции */
+        }
+    </style>
+    <script>
+        function enlargeImage(imgElement) {
+            imgElement.style.transform = imgElement.style.transform === 'scale(1.5)' ? 'scale(1)' : 'scale(1.5)';
+        }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Электронное портфолио Чепига Екатерины</h2>
+        <h3><a href="obomne.html">Обо мне</a></h3>
+        <nav>
+            <a href="one.html">1 курс</a>
+            <a href="ty.html">2 курс </a>
+            <a href="tri.html">3 курс</a>
+            <a href="proekt.html">Проекты</a>
+        </nav>
+        <section id="main-content">
+            <p></p>
+        </section>
+    </div>
+</body>
+</html>
